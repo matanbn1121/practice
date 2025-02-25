@@ -1,0 +1,112 @@
+/* סגנון כללי */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    direction: rtl;
+  }
+  
+  /* האדר */
+  .header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .user-info {
+    font-size: 18px;
+  }
+  
+  /* כותרת עמוד */
+  .section-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  /* סגנון המוצרים */
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px 50px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-card h3 {
+    margin-bottom: 10px;
+    color: #212529;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .product-card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-card button:hover {
+    background-color: #0056b3;
+  }
+  #detiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 16px; 
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9; 
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 10px 12px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #333333;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #e6f7ff; 
+      }
+    }
+  }
+  

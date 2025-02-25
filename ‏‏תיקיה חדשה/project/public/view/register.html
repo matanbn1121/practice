@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>הרשמה</title>
+  <link rel="stylesheet" href="../style/dist/register.css" />
+  <script src="../controller/dist/register.js" defer></script>
+</head>
+<body>
+  <div class="form-container">
+    <h2>הרשמה</h2>
+    <form id="registerForm">
+      <input type="text" placeholder="שם פרטי" name="firstName" required />
+      <input type="text" placeholder="שם משפחה" name="lastName" required />
+      <input type="email" placeholder="אימייל" name="email" required />
+      <input type="tel" placeholder="טלפון" name="phone" required />
+      <input type="password" placeholder="סיסמה" name="password" required />
+      <input type="address" placeholder="כתובת" name="address" required />
+      <input type="text" placeholder="עיר" name="city" required />
+      <input type="text" placeholder="מיקוד" name="zipCode" required />
+      <button type="submit">הירשם</button>
+    </form>
+  </div>
+</body>
+</html>
